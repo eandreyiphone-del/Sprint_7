@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
 @DisplayName("Принять заказ: PUT /api/v1/orders/accept/:id")
-public class OrderGetTrackTest extends OrderTestData {
+public class OrderGetTrackTest {
     String track;
 
     @Test

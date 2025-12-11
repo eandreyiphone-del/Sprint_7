@@ -13,7 +13,7 @@ import ru.yandex.practicum.orders.OrderTestData;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 @DisplayName("Принять заказ: PUT /api/v1/orders/accept/:id")
-public class OrderGetTest extends OrderTestData {
+public class OrderGetTest {
 
     String track;
     String courierId;

@@ -2,7 +2,9 @@ package ru.yandex.practicum.orders;
 
 import org.junit.runners.Parameterized;
 
-public class OrderTestDataForBikeColor extends OrderTestData {
+import static ru.yandex.practicum.orders.OrderTestData.*;
+
+public class OrderTestDataForBikeColor {
 
 
     //для параметризованного теста цвет самоката заказа POST /api/v1/orders
